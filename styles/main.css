@@ -1,6 +1,6 @@
-/* {
+ * {
 	box-sizing: border-box;
-}*/
+}
 
 body {
 	font-family: "Roboto", sans-serif;
@@ -9,23 +9,38 @@ body {
 
 header {
 	background-color: #eebb44;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10 0 10 0;
+	margin-bottom: 40px;
 }
-
-.row-1, row-2 {
-	padding-left: 1.0416%;
-	padding-right: 1.0416%;	
-	float: left;
+.box:first  {
+  margin-right: 6em;
+  margin-left: 6em;
+  margin-bottom: 2em;
 }
-
-.col-1, .col-2 {
+.col-4 {
 	border: 1px solid lightgray;
-	margin: 20px;
-	float: left;
+	}
+
+.card-image {
+	width: 33.3333%;
+	/*padding-left: 0;*/
 }
 
-p {
-	padding-left: 10px;
+.card-content {
+	padding: 20px;
 }
+
+/*.card-content h3 {
+  margin: 0;
+}
+
+.card-content p {
+  margin: 0.5em 0;
+}
+*/
+
+
+
+
+
 
